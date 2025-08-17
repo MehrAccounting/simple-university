@@ -18,5 +18,6 @@ namespace SimpleUniversity.Persistence.EF
         public DbSet<SelectedClass> SelectedClasses { get; set; }
         public DbSet<Class> Classes { get; set; }
         public DbSet<Term> Terms { get; set; }
+        public DbSet<Course> Courses { get; set; }
     }
 }
